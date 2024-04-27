@@ -1,7 +1,16 @@
-# SecondYearCodes
-This repository serves as a comprehensive collection of source code I developed during my second year of engineering studies in 2023. It encompasses projects completed in core courses, including:
+# Operating System
+Operating Systems Experiments: 
+This repository contains source code for various experiments conducted in your Operating Systems (OS) course.
 
-- Analysis of Algorithms: Implementations of various algorithms, focusing on efficiency (time and space complexity) and exploring data structures.
-- Image & Video Processing: Code for processing, manipulating, and analyzing images and videos. This may involve techniques like filtering, object detection, feature extraction, etc.
-- Artificial Intelligence: Projects related to machine learning, deep learning, or other AI concepts. Specific topics could include neural networks, reinforcement learning, computer vision, etc.
-- Operating Systems: Code related to operating system concepts like concurrency, process scheduling, memory management, file systems, etc. (This may vary depending on your curriculum.)
+Experiments:
+
+# Scheduling Algorithms:
+- FCFS (First-Come-First-Serve): This code simulates the FCFS scheduling algorithm, where processes are executed based on their arrival time.
+- RR (Round Robin): This code implements the RR scheduling algorithm, which allocates a time slice (quantum) to each process before preempting it and moving on to the next in the queue.
+# Memory Management:
+- Hit and Miss Page Replacement: This code simulates a paging system with page replacement algorithms like FIFO (First-In, First-Out) or LRU (Least Recently Used) to handle page faults.
+# Inter-Process Communication (IPC):
+- Consumer-Producer Problem using Forking: This code implements the consumer-producer problem using fork() to create child processes. Semaphores or mutexes are used for synchronization between the producer and consumer processes.
+# Directory Management:
+- This code explores data structures and algorithms for managing directory structures in file systems, potentially including techniques for storing and organizing file names, attributes, and directory hierarchies.
+
