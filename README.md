@@ -1,4 +1,5 @@
-**Artificial Intelligence**
+### Artificial Intelligence###
+
 Experiments: 
 This document outlines a series of experiments you've conducted in Artificial Intelligence:
 
