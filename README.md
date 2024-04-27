@@ -1,21 +1,18 @@
-## Image Processing Experiments: A Summary
+**Artificial Intelligence**
+Experiments: 
+This document outlines a series of experiments you've conducted in Artificial Intelligence:
 
+### 8-Puzzle Problem:##
+This is a classic problem-solving task in AI. You likely implemented a search algorithm, like Breadth-First Search (BFS) or Depth-First Search (DFS), to find the sequence of moves that transforms a scrambled 8-puzzle tile configuration into the goal state.
 
-* **Image Negative & Gray Level Slicing**
-- * **Image Negative:** This technique inverts the intensity values of an image, essentially creating a photographic negative. Bright areas become dark, and vice versa.
-- * **Gray Level Slicing:** This technique manipulates the distribution of pixel intensities in an image. By selecting specific gray level ranges, you can enhance certain features or remove unwanted information.
+### Min-Max Algorithm:###
+This algorithm is commonly used for two-player zero-sum games like chess or checkers. You might have explored how Min-Max evaluates game states and selects the optimal move for a player by considering the opponent's potential responses.
 
-* **MRI Image Segmentation**
+### Pathfinding in Maze:###
+This experiment involved finding an optimal route (shortest path) through a maze-like environment. Algorithms like A* search or maze solving algorithms tailored for specific maze representations could have been implemented.
 
-This experiment delves into a more advanced image processing task: **MRI Image Segmentation**. Segmentation aims to identify and classify distinct objects or regions within an image. In this case, you likely focused on segmenting various tissues or structures in a Magnetic Resonance Imaging (MRI) scan. This segmentation can be crucial for medical diagnosis and analysis.
+### Travelling Salesman Problem (TSP):###
+This well-known optimization problem seeks the shortest possible route that visits each city in a given list exactly once and returns to the starting city. You might have experimented with heuristic approaches or approximation algorithms to tackle this computationally expensive problem.
 
-* **Edge Detection**
-
-This experiment explores the concept of **Edge Detection**. Edges represent boundaries between different objects or regions in an image. Detecting edges allows you to extract meaningful information about shapes and objects within the image. Edge detection techniques are widely used in various applications like object recognition, motion analysis, and image compression.
-
-* **Image Smoothing & Image Sharpening**
-
-This experiment investigates two contrasting image enhancement techniques:
-
-* **Image Smoothing:** This technique aims to reduce noise and blur unwanted image details. Smoothing filters often utilize averaging techniques to blend neighboring pixel values.
-* **Image Sharpening:** This technique enhances edges and high-frequency details within an image. Sharpening filters often emphasize differences between neighboring pixel values, making edges appear more prominent.
+### Water Jug Problem:###
+This is a state-space search problem where you have multiple jugs with different capacities and need to reach a specific amount of water in one jug using only the provided operations (fill, empty, pour). You likely implemented a search algorithm to find the sequence of actions to achieve the desired state.
